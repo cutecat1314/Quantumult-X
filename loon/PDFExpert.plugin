@@ -1,0 +1,11 @@
+#!name = PDFExpert解锁
+#!desc = 点击恢复购买即可解锁订阅
+#!openUrl = 
+#!author = 彭于晏
+
+
+[Script]
+http-response ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js, requires-body=true, tag=Enpass解锁, 
+
+[MITM]
+hostname = license.pdfexpert.com
